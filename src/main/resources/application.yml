@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: product
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/lab?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+  thymeleaf:
+    prefix: classpath:templates/

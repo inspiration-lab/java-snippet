@@ -8,3 +8,6 @@ spring:
     password: root
   thymeleaf:
     prefix: classpath:templates/
+
+scheduled:
+  cron: 0/10 * *  * * ?

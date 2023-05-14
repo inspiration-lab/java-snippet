@@ -16,7 +16,7 @@ public class QuartzConfig {
     @Bean
     public Trigger jobTrigger() {
 
-        CronScheduleBuilder scheduleBuilderCron = CronScheduleBuilder.cronSchedule("0/5 * * * * ?");
+        CronScheduleBuilder scheduleBuilderCron = CronScheduleBuilder.cronSchedule("0/1 * * * * ?");
 
         return TriggerBuilder.newTrigger()
                 .forJob(jobDetail())

@@ -11,7 +11,7 @@ public class QuartzJob extends QuartzJobBean {
     
     @Override
     protected void executeInternal(JobExecutionContext context) {
-        System.out.println(Thread.currentThread().getName() + "-" + LocalDateTime.now());
+        // System.out.println(Thread.currentThread().getName() + "-" + LocalDateTime.now());
     }
     
 }
